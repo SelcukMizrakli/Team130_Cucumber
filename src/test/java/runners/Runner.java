@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber-reports.html",
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@wip",
+        tags = "@resim",
         dryRun = false // true oldugunda sadece eksik adim var mi diye kontrol eder
 )
 public class Runner {
@@ -18,4 +18,5 @@ public class Runner {
     // ama kullandigi notasyonlar sayesinde
     // projenin build edilmesini ve
     // istenen feature dosyalarinin toplu olarak callistirilmasini saglar
+
 }
