@@ -1,6 +1,6 @@
 
 Feature: US1013 Kullanicilar kayit olusturabilmeli
-
+  @e2e
   Scenario: : TC21 kullanici verilen listeden kayit olusturabilmeli
     When kullanici "editorUrl" anasayfaya gider
     Then new butonuna basar
@@ -9,3 +9,5 @@ Feature: US1013 Kullanicilar kayit olusturabilmeli
     When kullanici ilk isim ile arama yapar
     Then isim bolumunde isminin oldugunu dogrular
     And sayfayi kapatir
+
+
